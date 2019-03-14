@@ -1,0 +1,62 @@
+
+.alignSearch {
+    position: relative;
+    z-index: 4;
+    height: 1vw;
+    width: 1vw;
+    z-index: 4;
+}
+
+.search {
+    align-items: 'center';
+    width: 250px;
+    height: 50px;
+    z-index: 5;
+    padding-right: 5px;
+}
+
+.searchText {
+    width: 200px;
+    background-color: transparent;
+    border: 0px solid;
+    z-index: 4;
+}
+
+.results {
+    margin-top: 40px;
+    margin-bottom: 40px;
+}
+
+input:focus {
+    outline: none;
+}
+
+#map {
+    position: relative;
+    height: 35vw;
+    width: 60vw;
+    right: -7.5vw;
+  }  
+#pac-input {
+    position: relative;
+    width: 25vw;
+    height: 2vw;
+    z-index: 4;
+  }
+
+
+  .circle{
+  display: block;
+  position: absolute;
+  padding-left: 0;
+  z-index: 98;
+  margin-left: 85%;
+  -webkit-box-shadow: 0 6px 10px 0 rgba(0,0,0,0.3);
+  box-shadow: 0 6px 10px 0 rgba(0,0,0,0.3);
+  border-radius: 50%;
+  height: 30px;
+  width: 30px;
+  background-color: rgb(74, 150, 221);
+  transition: 0.2s;
+  text-align: center;
+  }
