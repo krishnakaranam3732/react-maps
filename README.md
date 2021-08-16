@@ -1,3 +1,6 @@
+Code live at: https://react-googlemaps.herokuapp.com/
+
+
 1. Open the folder react-maps in the terminal
 2. execute command: npm install
 3. execute command: npm run build
